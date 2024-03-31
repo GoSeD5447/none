@@ -1,0 +1,96 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Light red background */
+}
+
+/* Header styles */
+header {
+    background-color: #d10000; /* Darker red */
+    color: white;
+    text-align: left; /* Align text to the left */
+    padding: 1em;
+    display: flex; /* Aligns the h1, input, and button in a row */
+    align-items: center; /* Centers them vertically */
+}
+
+header h1 {
+    margin-right: 10px; /* Adds some space between the h1 and the input field */
+}
+
+/* Styles for the input field */
+input[type="text"] {
+    padding: 0.5em;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px; /* Adds some space between the input field and the button */
+}
+
+/* Styles for the button */
+button {
+    padding: 0.5em 1em;
+    background-color: #fff;
+    color: #d10000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+}
+
+button:hover {
+    background-color: #ffdcdc; /* Light red background on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    color: #d10000; /* Red text for the main content */
+}
+
+section {
+    background-color: #ffdcdc; /* Very light red */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+
+section:hover {
+    background-color: #000000; /* Very light red */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #d10000; /* Darker red */
+    color: white;
+    text-align: left; /* Align text to the left */
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Link styles */
+a {
+    color: #d10000; /* Red links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #870000; /* Darker red on hover */
+    text-decoration: underline;
+}
+mark{
+    background-color: #870000;
+    border-radius: 45px;
+    padding: 8px;
+}
+mark:hover{
+    background-color: #000000;
+    border-radius: 45px;
+    padding: 8px;
+    color: #ffffff;
+}
